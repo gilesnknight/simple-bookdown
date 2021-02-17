@@ -1,0 +1,8 @@
+book_filename: A simple bookdown guide for course resources
+output_dir: docs
+delete_merged_file: true
+rmd_files: ["index.Rmd",
+            "01-gettingstarted.Rmd",
+            "editingachapter.Rmd",
+            "10-references.Rmd"]
+new_session: no

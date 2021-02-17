@@ -1,0 +1,20 @@
+# Getting Started {#GettingStarted -}
+
+## Tools You'll Need {-}
+
+### RStudio {-} 
+
+RStudio is
+If you already have RStudio installed, check to make sure it's up-to-date and includes the new visual editor. 
+
+### GitHub Desktop {-}
+
+### Bookdown template {-}
+
+## Useful resources {-}
+
+For further information, take a look at:
+
+- [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)

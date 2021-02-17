@@ -1,0 +1,15 @@
+--- 
+title: "A simple bookdown guide for course resources"
+author: "[Giles Knight](mailto:giles.knight@uwa.edu.au)"
+date: "Last updated: `r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography:  ["references/references.bib"]
+biblio-style: apalike
+link-citations: yes
+description: ""
+---
+
+# Introduction {-}
+
+This guide aims to provide a simple overview of using the R `bookdown` package to write, deploy, and maintain an online book for the purpose of hosting course resources. 
