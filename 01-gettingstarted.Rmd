@@ -4,12 +4,15 @@
 
 ### RStudio {-} 
 
-RStudio is
-If you already have RStudio installed, check to make sure it's up-to-date and includes the new visual editor. 
+Download RStudio [here](https://rstudio.com/products/rstudio/).
 
 ### GitHub Desktop {-}
 
+Download GitHub Desktop [here](https://desktop.github.com).
+
 ### Bookdown template {-}
+
+Download the a blank bookdown template [here](https://github.com/gilesnknight/bookdown-template).
 
 ## Useful resources {-}
 

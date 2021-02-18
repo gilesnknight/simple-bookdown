@@ -1,5 +1,5 @@
 --- 
-title: "A simple bookdown guide for course resources"
+title: "Simple bookdown guide"
 author: "[Giles Knight](mailto:giles.knight@uwa.edu.au)"
 date: "Last updated: `r Sys.Date()`"
 site: bookdown::bookdown_site

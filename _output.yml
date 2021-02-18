@@ -6,7 +6,7 @@ bookdown::gitbook:
     toc:
       collapse: none
       before: |
-        <li><a href="./"><b>A simple bookdown guide for course resources</b></a></li>
+        <li><a href="./"><b>Simple bookdown guide</b></a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: [["Module 1 Resources.zip", "Module 1 Resources"], 

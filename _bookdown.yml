@@ -1,4 +1,4 @@
-book_filename: A simple bookdown guide for course resources
+book_filename: Simple bookdown guide 
 output_dir: docs
 delete_merged_file: true
 rmd_files: ["index.Rmd",
