@@ -41,7 +41,7 @@ knitr::include_graphics("images/picture3.png")
 
 6) Once built, a new window will open displaying the compiled book
 
-7) When you're reading to update the website, open GitHub Desktop and select the book's repository 
+7) When you're ready to update the website, open GitHub Desktop and select the book's repository 
 
 <center>
 ```{r image5, echo = FALSE, out.width='85%', fig.cap = "Commit changes in GitHub Desktop"}
