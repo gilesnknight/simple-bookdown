@@ -1,0 +1,48 @@
+# Steps for updating the book {-}
+
+1)  Open the book's `.Rproj` file (RStudio will open)
+2)  Open the `.Rmd` file you wish to edit
+
+<center>
+
+```{r image2, echo = FALSE, out.width='50%', fig.cap = "Open the `.Rmd` file."}
+
+knitr::include_graphics("images/picture1.png")
+
+```
+
+</center>
+
+3)  Once open, switch to the visual editor
+
+<center>
+
+```{r image3, echo = FALSE, out.width='80%', fig.cap = "The visual editor button."}
+
+knitr::include_graphics("images/picture2.png")
+
+```
+
+</center>
+
+4)  Edit the chapter
+
+5)  When finished, re-build the book
+
+<center>
+
+```{r image4, echo = FALSE, out.width='80%', fig.cap = "Building the book."}
+
+knitr::include_graphics("images/picture3.png")
+
+```
+
+</center>
+
+6) Once built, a new window will open displaying the compiled book
+
+```{r image5, echo = FALSE, out.width='80%', fig.cap = "Previewing the book."}
+
+knitr::include_graphics("images/picture4.png")
+
+```
