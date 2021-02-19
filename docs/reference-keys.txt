@@ -2,6 +2,7 @@ fig:image2
 fig:image3
 fig:image4
 fig:image5
+fig:image6
 fig:image1
 eq:populationGrowth
 this-is-a-level-3-header-with-auto-numbering

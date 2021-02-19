@@ -41,8 +41,24 @@ knitr::include_graphics("images/picture3.png")
 
 6) Once built, a new window will open displaying the compiled book
 
-```{r image5, echo = FALSE, out.width='80%', fig.cap = "Previewing the book."}
+7) When you're reading to update the website, open GitHub Desktop and select the book's repository 
+
+<center>
+```{r image5, echo = FALSE, out.width='85%', fig.cap = "Commit changes in GitHub Desktop"}
 
 knitr::include_graphics("images/picture4.png")
 
 ```
+</center>
+
+8) Add a description for the changes and commit them
+
+9) Finally, push your changes to GitHub - the website will update in ~1 minute
+
+<center>
+```{r image6, echo = FALSE, out.width='85%', fig.cap = "Push the changes to update the website"}
+
+knitr::include_graphics("images/picture5.png")
+
+```
+</center>
