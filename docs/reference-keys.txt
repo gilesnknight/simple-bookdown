@@ -1,2 +1,3 @@
+fig:image1
 eq:populationGrowth
 this-is-a-level-3-header-with-auto-numbering

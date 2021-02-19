@@ -83,6 +83,26 @@ would be written as:
 4) Item 4
 ```
 
+## Figures {.unnumbered}
+
+Use the following R chunk to include figures:
+
+    `r ''````{r yourImageCitationID, echo = FALSE, out.width='100%', fig.cap = "The figure caption."}
+
+    knitr::include_graphics("images/picture1.png")
+    ```
+
+Refer to the figure using:`\@ref(type:yourImageCitationID)`. For example:
+
+"It therefore is known to concentrate in the mid to southern regions (Figure \@ref(fig:image1))."
+
+
+```{r image1, echo = FALSE, out.width='100%', fig.cap = "The figure caption."}
+
+knitr::include_graphics("images/picture1.png")
+
+```
+
 ## Mathematics {.unnumbered}
 
 ### In-line equations {.unnumbered}
@@ -120,14 +140,18 @@ To cross-reference equations include `(\#eq:yourCitationID)` at the end of your 
 $$
 P(s) = 100e^{0.03t}
 (\#eq:populationGrowth)
-$$ would be written as:
+$$ 
 
-    Equation \@ref(eq:populationGrowth) describes the growth of the species...
+would be written as:
 
-    $$
-    P(s) = 100e^{0.03t}
-    (\#eq:populationGrowth)
-    $$
+```
+Equation \@ref(eq:populationGrowth) describes the growth of the species...
+
+$$
+P(s) = 100e^{0.03t}
+(\#eq:populationGrowth)
+$$
+```
 
 ## Code chunks {.unnumbered}
 

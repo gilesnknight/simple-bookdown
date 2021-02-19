@@ -163,6 +163,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="editing-a-chapter.html"><a href="editing-a-chapter.html#unnumbered-lists"><i class="fa fa-check"></i>Unnumbered lists</a></li>
 <li class="chapter" data-level="" data-path="editing-a-chapter.html"><a href="editing-a-chapter.html#numbered-lists"><i class="fa fa-check"></i>Numbered lists</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="editing-a-chapter.html"><a href="editing-a-chapter.html#figures"><i class="fa fa-check"></i>Figures</a></li>
 <li class="chapter" data-level="" data-path="editing-a-chapter.html"><a href="editing-a-chapter.html#mathematics"><i class="fa fa-check"></i>Mathematics</a>
 <ul>
 <li class="chapter" data-level="" data-path="editing-a-chapter.html"><a href="editing-a-chapter.html#in-line-equations"><i class="fa fa-check"></i>In-line equations</a></li>
@@ -266,6 +267,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 4) Item 4</code></pre>
 </div>
 </div>
+<div id="figures" class="section level2 unnumbered">
+<h2>Figures</h2>
+<p>Use the following R chunk to include figures:</p>
+<pre><code>```{r yourImageCitationID, echo = FALSE, out.width=&#39;100%&#39;, fig.cap = &quot;The figure caption.&quot;}
+
+knitr::include_graphics(&quot;images/picture1.png&quot;)
+```</code></pre>
+<p>Refer to the figure using:<code>\@ref(type:yourImageCitationID)</code>. For example:</p>
+<p>“It therefore is known to concentrate in the mid to southern regions (Figure <a href="editing-a-chapter.html#fig:image1">1</a>).”</p>
+<div class="figure"><span id="fig:image1"></span>
+<img src="images/picture1.png" alt="The figure caption." width="100%" />
+<p class="caption">
+Figure 1: The figure caption.
+</p>
+</div>
+</div>
 <div id="mathematics" class="section level2 unnumbered">
 <h2>Mathematics</h2>
 <div id="in-line-equations" class="section level3 unnumbered">
@@ -293,7 +310,8 @@ $$</code></pre>
 <p><span class="math display" id="eq:populationGrowth">\[
 P(s) = 100e^{0.03t}
 \tag{1}
-\]</span> would be written as:</p>
+\]</span></p>
+<p>would be written as:</p>
 <pre><code>Equation \@ref(eq:populationGrowth) describes the growth of the species...
 
 $$
@@ -330,10 +348,10 @@ ggplot(mtcars,aes(x=mpg)) +
 <div id="r-code-chunks" class="section level3 unnumbered">
 <h3>R code chunks</h3>
 <p>In the above code chunk we’ve written some simple R code to create a histogram. Without telling it otherwise, bookdown will not recognise this as R code and subsequently does nothing with it. To declare to bookdown that the chunk is executable R code, add <code>{r}</code> after the opening backticks. You’ll notice RStudio immediately recognises this and provides some buttons to preview the executed code and controll the output options (e.g. hide the code and just show the plot). For example:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="editing-a-chapter.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb14-2"><a href="editing-a-chapter.html#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-3"><a href="editing-a-chapter.html#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars,<span class="fu">aes</span>(<span class="at">x=</span>mpg)) <span class="sc">+</span> </span>
-<span id="cb14-4"><a href="editing-a-chapter.html#cb14-4" aria-hidden="true" tabindex="-1"></a> <span class="fu">geom_histogram</span>(<span class="at">binwidth=</span><span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="editing-a-chapter.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb15-2"><a href="editing-a-chapter.html#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="editing-a-chapter.html#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars,<span class="fu">aes</span>(<span class="at">x=</span>mpg)) <span class="sc">+</span> </span>
+<span id="cb15-4"><a href="editing-a-chapter.html#cb15-4" aria-hidden="true" tabindex="-1"></a> <span class="fu">geom_histogram</span>(<span class="at">binwidth=</span><span class="dv">5</span>)</span></code></pre></div>
 <p><img src="Simple-bookdown-guide_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p>would be written as:</p>
 <pre><code>```{r}

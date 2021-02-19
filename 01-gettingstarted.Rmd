@@ -1,23 +1,23 @@
-# Getting Started {#GettingStarted -}
+# Getting Started {#GettingStarted .unnumbered}
 
-## Tools You'll Need {-}
+## Tools You'll Need {.unnumbered}
 
-### RStudio {-} 
+### RStudio {.unnumbered}
 
 Download RStudio [here](https://rstudio.com/products/rstudio/).
 
-### GitHub Desktop {-}
+### GitHub Desktop {.unnumbered}
 
 Download GitHub Desktop [here](https://desktop.github.com).
 
-### Bookdown template {-}
+### Bookdown template {.unnumbered}
 
 Download the a blank bookdown template [here](https://github.com/gilesnknight/bookdown-template).
 
-## Useful resources {-}
+## Useful resources {.unnumbered}
 
 For further information, take a look at:
 
-- [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
-- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
-- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+-   [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
+-   [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+-   [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
